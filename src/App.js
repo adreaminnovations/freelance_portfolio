@@ -4,8 +4,7 @@ import Home from './components/Home/Home';
 import Navbar from './components/Navbar/Navbar';
 import React from "react";
 import { HashRouter, Routes, Route } from 'react-router-dom';
-import Projects from './Projects/Projects';
-import Footer from './Footer/Footer';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (

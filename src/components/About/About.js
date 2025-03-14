@@ -7,7 +7,7 @@ function About() {
             {/* Python Section */}
             <div className="row align-items-center p-4 my-3">
                 <div className="col-lg-6 col-12 text-center mb-4 mb-lg-0">
-                    <img src="/python_logo.png" alt="Python Logo" className="img-fluid rounded" />
+                    <img src={`${process.env.PUBLIC_URL}/python_logo.png`} alt="Python Logo" className="img-fluid rounded" />
                 </div>
                 <div className="col-lg-6 col-12">
                     <ul className="text-start">
@@ -41,14 +41,14 @@ function About() {
                     </ul>
                 </div>
                 <div className="col-lg-6 col-12 text-center">
-                    <img src="/odoo_logo.png" alt="Odoo Logo" className="img-fluid rounded" />
+                    <img src={`${process.env.PUBLIC_URL}/odoo_logo.png`} alt="Odoo Logo" className="img-fluid rounded" />
                 </div>
             </div>
 
             {/* Django Section */}
             <div className="row align-items-center p-4 my-3">
                 <div className="col-lg-6 col-12 text-center mb-4 mb-lg-0">
-                    <img src="/django_logo.png" alt="Django Logo" className="img-fluid rounded" />
+                    <img src={`${process.env.PUBLIC_URL}/django_logo.png`} alt="Django Logo" className="img-fluid rounded" />
                 </div>
                 <div className="col-lg-6 col-12">
                     <ul className="text-start">
@@ -83,7 +83,7 @@ function About() {
                     </ul>
                 </div>
                 <div className="col-lg-6 col-12 text-center">
-                    <img src="/react_logo.png" alt="React Logo" className="img-fluid rounded" />
+                    <img src={`${process.env.PUBLIC_URL}/react_logo.png`} alt="React Logo" className="img-fluid rounded" />
                 </div>
             </div>
 
