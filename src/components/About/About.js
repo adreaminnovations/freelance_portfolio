@@ -5,11 +5,8 @@ function About() {
         <div className="container my-5 p-5">
 
             {/* Python Section */}
-            <div className="row align-items-center p-4 my-3">
-                <div className="col-lg-6 col-12 text-center mb-4 mb-lg-0">
-                    <img src={`${process.env.PUBLIC_URL}/python_logo.png`} alt="Python Logo" className="img-fluid rounded" />
-                </div>
-                <div className="col-lg-6 col-12">
+            <div className="row align-items-center p-4 my-3 flex-column-reverse flex-lg-row">
+                <div className="col-lg-6 col-12 text-center text-lg-start">
                     <ul className="text-start">
                         <li>
                             <strong>Python</strong> is at the core of our development expertise. We leverage its versatility to build automation scripts,
@@ -23,11 +20,14 @@ function About() {
                         </li>
                     </ul>
                 </div>
+                <div className="col-lg-6 col-12 text-center mb-4 mb-lg-0">
+                    <img src={`${process.env.PUBLIC_URL}/python_logo.png`} alt="Python Logo" className="img-fluid rounded" style={{ maxWidth: "100%", height: "auto" }} />
+                </div>
             </div>
 
             {/* Odoo Section */}
-            <div className="row align-items-center p-4 my-3">
-                <div className="col-lg-6 col-12">
+            <div className="row align-items-center p-4 my-3 flex-column-reverse flex-lg-row-reverse">
+                <div className="col-lg-6 col-12 text-center text-lg-start">
                     <ul className="text-start">
                         <li>
                             <strong>Odoo</strong> is a rapidly growing open-source ERP system, and we specialize in delivering custom Odoo development services.
@@ -40,17 +40,14 @@ function About() {
                         </li>
                     </ul>
                 </div>
-                <div className="col-lg-6 col-12 text-center">
-                    <img src={`${process.env.PUBLIC_URL}/odoo_logo.png`} alt="Odoo Logo" className="img-fluid rounded" />
+                <div className="col-lg-6 col-12 text-center mb-4 mb-lg-0">
+                    <img src={`${process.env.PUBLIC_URL}/odoo_logo.png`} alt="Odoo Logo" className="img-fluid rounded" style={{ maxWidth: "100%", height: "auto" }} />
                 </div>
             </div>
 
             {/* Django Section */}
-            <div className="row align-items-center p-4 my-3">
-                <div className="col-lg-6 col-12 text-center mb-4 mb-lg-0">
-                    <img src={`${process.env.PUBLIC_URL}/django_logo.png`} alt="Django Logo" className="img-fluid rounded" />
-                </div>
-                <div className="col-lg-6 col-12">
+            <div className="row align-items-center p-4 my-3 flex-column-reverse flex-lg-row">
+                <div className="col-lg-6 col-12 text-center text-lg-start">
                     <ul className="text-start">
                         <li>
                             <strong>Django</strong> is at the core of our web development expertise. We leverage its powerful framework to build secure, scalable,
@@ -64,11 +61,14 @@ function About() {
                         </li>
                     </ul>
                 </div>
+                <div className="col-lg-6 col-12 text-center mb-4 mb-lg-0">
+                    <img src={`${process.env.PUBLIC_URL}/django_logo.png`} alt="Django Logo" className="img-fluid rounded" style={{ maxWidth: "100%", height: "auto" }} />
+                </div>
             </div>
 
             {/* React Section */}
-            <div className="row align-items-center p-4 my-3">
-                <div className="col-lg-6 col-12">
+            <div className="row align-items-center p-4 my-3 flex-column-reverse flex-lg-row-reverse">
+                <div className="col-lg-6 col-12 text-center text-lg-start">
                     <ul className="text-start">
                         <li>
                             <strong>React</strong> is at the heart of our front-end development expertise. We leverage its component-based architecture to build dynamic,
@@ -82,27 +82,26 @@ function About() {
                         </li>
                     </ul>
                 </div>
-                <div className="col-lg-6 col-12 text-center">
-                    <img src={`${process.env.PUBLIC_URL}/react_logo.png`} alt="React Logo" className="img-fluid rounded" />
+                <div className="col-lg-6 col-12 text-center mb-4 mb-lg-0">
+                    <img src={`${process.env.PUBLIC_URL}/react_logo.png`} alt="React Logo" className="img-fluid rounded" style={{ maxWidth: "100%", height: "auto" }} />
                 </div>
             </div>
 
-                        
-            <h4 className="fw-bold mb-3">Other Tools & Technologies</h4>
-<div className="d-flex flex-wrap justify-content-center gap-3">
-    <span className="badge p-2" style={{ backgroundColor: "#0d6efd", color: "white" }}>API Integration & Development</span>
-    <span className="badge p-2" style={{ backgroundColor: "#dc3545", color: "white" }}>Web Scraping</span>
-    <span className="badge p-2" style={{ backgroundColor: "#f97316", color: "white" }}>Django REST Framework</span>
-    <span className="badge p-2" style={{ backgroundColor: "#198754", color: "white" }}>JavaScript</span>
-    <span className="badge p-2" style={{ backgroundColor: "#fd7e14", color: "white" }}>HTML</span>
-    <span className="badge p-2" style={{ backgroundColor: "#6c757d", color: "white" }}>CSS</span>
-    <span className="badge p-2" style={{ backgroundColor: "#7952b3", color: "white" }}>Bootstrap</span>
-    <span className="badge p-2" style={{ backgroundColor: "#ffcc00", color: "black" }}>Canva</span>
-    <span className="badge p-2" style={{ backgroundColor: "#336791", color: "white" }}>PostgreSQL</span>
-    <span className="badge p-2" style={{ backgroundColor: "#00758f", color: "white" }}>MySQL</span>
-    <span className="badge p-2" style={{ backgroundColor: "#24292f", color: "white" }}>Git</span>
-</div>
-
+            {/* Other Tools & Technologies */}
+            <h4 className="fw-bold mb-3 text-center">Other Tools & Technologies</h4>
+            <div className="d-flex flex-wrap justify-content-center gap-2">
+                <span className="badge p-2" style={{ backgroundColor: "#0d6efd", color: "white" }}>API Integration & Development</span>
+                <span className="badge p-2" style={{ backgroundColor: "#dc3545", color: "white" }}>Web Scraping</span>
+                <span className="badge p-2" style={{ backgroundColor: "#f97316", color: "white" }}>Django REST Framework</span>
+                <span className="badge p-2" style={{ backgroundColor: "#198754", color: "white" }}>JavaScript</span>
+                <span className="badge p-2" style={{ backgroundColor: "#fd7e14", color: "white" }}>HTML</span>
+                <span className="badge p-2" style={{ backgroundColor: "#6c757d", color: "white" }}>CSS</span>
+                <span className="badge p-2" style={{ backgroundColor: "#7952b3", color: "white" }}>Bootstrap</span>
+                <span className="badge p-2" style={{ backgroundColor: "#ffcc00", color: "black" }}>Canva</span>
+                <span className="badge p-2" style={{ backgroundColor: "#336791", color: "white" }}>PostgreSQL</span>
+                <span className="badge p-2" style={{ backgroundColor: "#00758f", color: "white" }}>MySQL</span>
+                <span className="badge p-2" style={{ backgroundColor: "#24292f", color: "white" }}>Git</span>
+            </div>
 
         </div>
     );
