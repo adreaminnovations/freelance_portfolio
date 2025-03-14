@@ -5,7 +5,7 @@ function Home() {
     return (
         <div 
             className="container-fluid d-flex align-items-center justify-content-center p-5" 
-            style={{ minHeight: "71vh", overflow: "hidden" }}
+            style={{ minHeight: "74vh", overflow: "hidden" }}
         >
             <div className="row w-100 d-flex align-items-center justify-content-center">
                 
