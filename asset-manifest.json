@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/freelance_portfolio/static/css/main.435d5fe5.chunk.css",
+    "main.js": "/freelance_portfolio/static/js/main.f351c14d.chunk.js",
+    "main.js.map": "/freelance_portfolio/static/js/main.f351c14d.chunk.js.map",
+    "runtime~main.js": "/freelance_portfolio/static/js/runtime~main.31f2876c.js",
+    "runtime~main.js.map": "/freelance_portfolio/static/js/runtime~main.31f2876c.js.map",
+    "static/js/2.fb27fa84.chunk.js": "/freelance_portfolio/static/js/2.fb27fa84.chunk.js",
+    "static/js/2.fb27fa84.chunk.js.map": "/freelance_portfolio/static/js/2.fb27fa84.chunk.js.map",
+    "static/js/3.177faaa1.chunk.js": "/freelance_portfolio/static/js/3.177faaa1.chunk.js",
+    "static/js/3.177faaa1.chunk.js.map": "/freelance_portfolio/static/js/3.177faaa1.chunk.js.map",
+    "index.html": "/freelance_portfolio/index.html",
+    "precache-manifest.dd249b33961767a8e95da884e93738da.js": "/freelance_portfolio/precache-manifest.dd249b33961767a8e95da884e93738da.js",
+    "service-worker.js": "/freelance_portfolio/service-worker.js",
+    "static/css/main.435d5fe5.chunk.css.map": "/freelance_portfolio/static/css/main.435d5fe5.chunk.css.map"
+  }
+}
