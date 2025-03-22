@@ -7,100 +7,78 @@ function About() {
             {/* Python Section */}
             <div className="row align-items-center p-4 my-3 flex-column-reverse flex-lg-row">
                 <div className="col-lg-6 col-12 text-center text-lg-start">
+                    <h2 className="fw-bold">Python Development & Automation Services</h2>
                     <ul className="text-start">
-                        <li>
-                            <strong>Python</strong> is at the core of our development expertise. We leverage its versatility to build automation scripts,
-                            web applications, and data-driven solutions. From streamlining repetitive tasks to creating scalable back-end systems,
-                            Python enables us to deliver efficient and robust applications.
-                        </li>
-                        <li>
-                            Our expertise includes developing intelligent automation scripts to reduce manual efforts, optimize workflows,
-                            and improve efficiency. Whether it's web scraping, process automation, or API integration, we build smart
-                            Python-based solutions that handle complex tasks with ease.
-                        </li>
+                        <li>We leverage <strong>Python</strong> to build automation scripts, web applications, and data-driven solutions.</li>
+                        <li>Expertise in <strong>web scraping</strong>, <strong>API automation</strong>, and scalable backend development.</li>
                     </ul>
                 </div>
                 <div className="col-lg-6 col-12 text-center mb-4 mb-lg-0">
-                    <img src={`${process.env.PUBLIC_URL}/python_logo.png`} alt="Python Logo" className="img-fluid rounded" style={{ maxWidth: "100%", height: "auto" }} />
+                    <img src={`${process.env.PUBLIC_URL}/python_logo.png`} alt="Python Development" className="img-fluid rounded" loading="lazy" />
                 </div>
             </div>
 
             {/* Odoo Section */}
             <div className="row align-items-center p-4 my-3 flex-column-reverse flex-lg-row-reverse">
                 <div className="col-lg-6 col-12 text-center text-lg-start">
+                    <h2 className="fw-bold">Odoo ERP Customization & Development</h2>
                     <ul className="text-start">
-                        <li>
-                            <strong>Odoo</strong> is a rapidly growing open-source ERP system, and we specialize in delivering custom Odoo development services.
-                            From implementation to customization and integration, we help businesses streamline their operations with tailored Odoo solutions.
-                        </li>
-                        <li>
-                            Our expertise includes developing custom Odoo modules, automating business workflows, and integrating third-party applications
-                            to enhance system functionality. Whether you need ERP customization, advanced reporting, or seamless API integration, we build
-                            efficient, scalable solutions to meet your unique business needs.
-                        </li>
+                        <li>Custom <strong>Odoo ERP solutions</strong> for businesses, including module development and API integrations.</li>
+                        <li>Enhance your ERP system with <strong>advanced automation</strong> and third-party integrations.</li>
                     </ul>
                 </div>
                 <div className="col-lg-6 col-12 text-center mb-4 mb-lg-0">
-                    <img src={`${process.env.PUBLIC_URL}/odoo_logo.png`} alt="Odoo Logo" className="img-fluid rounded" style={{ maxWidth: "100%", height: "auto" }} />
+                    <img src={`${process.env.PUBLIC_URL}/odoo_logo.png`} alt="Odoo ERP Solutions" className="img-fluid rounded" loading="lazy" />
                 </div>
             </div>
 
             {/* Django Section */}
             <div className="row align-items-center p-4 my-3 flex-column-reverse flex-lg-row">
                 <div className="col-lg-6 col-12 text-center text-lg-start">
+                    <h2 className="fw-bold">Django Web Development & API Solutions</h2>
                     <ul className="text-start">
-                        <li>
-                            <strong>Django</strong> is at the core of our web development expertise. We leverage its powerful framework to build secure, scalable,
-                            and high-performance web applications. From dynamic websites to enterprise-grade platforms, Django enables us to deliver
-                            robust and efficient solutions.
-                        </li>
-                        <li>
-                            Our expertise includes developing custom Django applications, API-driven backends, and database-driven solutions to meet
-                            diverse business needs. Whether it's REST API development, authentication systems, or real-time web applications, we build
-                            Django-based solutions that ensure reliability, security, and scalability.
-                        </li>
+                        <li>We build <strong>secure and scalable Django applications</strong>, including REST API development.</li>
+                        <li>Expertise in authentication systems, <strong>real-time web applications</strong>, and backend optimization.</li>
                     </ul>
                 </div>
                 <div className="col-lg-6 col-12 text-center mb-4 mb-lg-0">
-                    <img src={`${process.env.PUBLIC_URL}/django_logo.png`} alt="Django Logo" className="img-fluid rounded" style={{ maxWidth: "100%", height: "auto" }} />
+                    <img src={`${process.env.PUBLIC_URL}/django_logo.png`} alt="Django Web Development" className="img-fluid rounded" loading="lazy" />
                 </div>
             </div>
 
             {/* React Section */}
             <div className="row align-items-center p-4 my-3 flex-column-reverse flex-lg-row-reverse">
                 <div className="col-lg-6 col-12 text-center text-lg-start">
+                    <h2 className="fw-bold">React UI & Frontend Development</h2>
                     <ul className="text-start">
-                        <li>
-                            <strong>React</strong> is at the heart of our front-end development expertise. We leverage its component-based architecture to build dynamic,
-                            high-performance, and interactive web applications. From single-page applications (SPAs) to complex user interfaces, React
-                            enables us to create seamless and engaging digital experiences.
-                        </li>
-                        <li>
-                            Our expertise includes developing custom React components, optimizing application performance, and integrating APIs for
-                            real-time data handling. Whether you need a responsive web app, progressive web application (PWA), or an interactive UI,
-                            we build scalable and maintainable React-based solutions tailored to your needs.
-                        </li>
+                        <li>We build dynamic, high-performance web apps with <strong>React.js</strong> and modern UI frameworks.</li>
+                        <li>Expertise in <strong>progressive web applications (PWAs)</strong>, state management, and responsive designs.</li>
                     </ul>
                 </div>
                 <div className="col-lg-6 col-12 text-center mb-4 mb-lg-0">
-                    <img src={`${process.env.PUBLIC_URL}/react_logo.png`} alt="React Logo" className="img-fluid rounded" style={{ maxWidth: "100%", height: "auto" }} />
+                    <img src={`${process.env.PUBLIC_URL}/react_logo.png`} alt="React UI Development" className="img-fluid rounded" loading="lazy" />
                 </div>
             </div>
 
             {/* Other Tools & Technologies */}
-            <h4 className="fw-bold mb-3 text-center">Other Tools & Technologies</h4>
+            <h3 className="fw-bold mb-3 text-center">Other Tools & Technologies</h3>
             <div className="d-flex flex-wrap justify-content-center gap-2">
-                <span className="badge p-2" style={{ backgroundColor: "#0d6efd", color: "white" }}>API Integration & Development</span>
-                <span className="badge p-2" style={{ backgroundColor: "#dc3545", color: "white" }}>Web Scraping</span>
-                <span className="badge p-2" style={{ backgroundColor: "#f97316", color: "white" }}>Django REST Framework</span>
-                <span className="badge p-2" style={{ backgroundColor: "#198754", color: "white" }}>JavaScript</span>
-                <span className="badge p-2" style={{ backgroundColor: "#fd7e14", color: "white" }}>HTML</span>
-                <span className="badge p-2" style={{ backgroundColor: "#6c757d", color: "white" }}>CSS</span>
-                <span className="badge p-2" style={{ backgroundColor: "#7952b3", color: "white" }}>Bootstrap</span>
-                <span className="badge p-2" style={{ backgroundColor: "#ffcc00", color: "black" }}>Canva</span>
-                <span className="badge p-2" style={{ backgroundColor: "#336791", color: "white" }}>PostgreSQL</span>
-                <span className="badge p-2" style={{ backgroundColor: "#00758f", color: "white" }}>MySQL</span>
-                <span className="badge p-2" style={{ backgroundColor: "#24292f", color: "white" }}>Git</span>
+                <span className="badge p-2 bg-primary text-white">API Development</span>
+                <span className="badge p-2 bg-danger text-white">Web Scraping</span>
+                <span className="badge p-2 bg-warning text-dark">Django REST Framework</span>
+                <span className="badge p-2 bg-success text-white">JavaScript</span>
+                <span className="badge p-2 bg-secondary text-white">HTML & CSS</span>
+                <span className="badge p-2 bg-dark text-white">Bootstrap</span>
+                <span className="badge p-2 bg-info text-white">Canva</span>
+                <span className="badge p-2 bg-primary text-white">PostgreSQL</span>
+                <span className="badge p-2 bg-secondary text-white">MySQL</span>
+                <span className="badge p-2 bg-dark text-white">Git & Version Control</span>
+            </div>
+
+            {/* Call-to-Action (CTA) */}
+            <div className="text-center mt-4">
+                <p className="fw-bold">Looking for expert web development and automation solutions?</p>
+                <a href="/contact" className="btn btn-outline-dark px-4 py-2 fw-bold">Get in Touch</a>
             </div>
 
         </div>

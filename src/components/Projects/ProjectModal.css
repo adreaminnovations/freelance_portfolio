@@ -1,0 +1,85 @@
+/* Modal Styling */
+.custom-modal {
+    background: rgba(30, 30, 30, 0.95);
+    backdrop-filter: blur(15px);
+    border-radius: 12px;
+    padding: 20px;
+    color: white;
+    border: none;
+    box-shadow: 0px 0px 20px rgba(255, 193, 7, 0.3);
+}
+
+/* Header */
+.modal-header {
+    border-bottom: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modal-title {
+    font-weight: bold;
+    color: #ffc107;
+}
+
+/* Project Image */
+.project-image {
+    max-height: 200px;
+    object-fit: contain;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 193, 7, 0.5);
+    margin-bottom: 20px;
+}
+
+/* Description */
+.project-description {
+    font-size: 1.1rem;
+    color: #bbb;
+}
+
+/* Project List */
+.project-heading {
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+    color: #ffc107;
+}
+
+/* Project Card */
+.project-card {
+    background: linear-gradient(135deg, rgba(255, 193, 7, 0.2), rgba(255, 193, 7, 0.05));
+    padding: 15px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: white;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(255, 193, 7, 0.2);
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px rgba(255, 193, 7, 0.5);
+}
+
+/* Footer */
+.modal-footer {
+    border-top: none;
+    justify-content: center;
+}
+
+/* Close Button */
+.close-btn {
+    background: transparent;
+    border: 2px solid #ffc107;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #ffc107;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.close-btn:hover {
+    background: #ffc107;
+    color: black;
+    transform: scale(1.05);
+}

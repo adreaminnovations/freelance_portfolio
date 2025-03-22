@@ -1,11 +1,15 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 function Navbar() {
+    const location = useLocation();
+
     return (
-        <nav className="navbar bg-dark navbar-expand-lg " data-bs-theme="dark" >
+        <nav className="navbar bg-dark navbar-expand-lg" data-bs-theme="dark" aria-label="Main Navigation">
             <div className="container-fluid">
-                <Link className="navbar-brand" to="/">ADream Innovations</Link>
+                <Link className="navbar-brand" to="/" aria-label="Home - ADream Innovations">
+                    ADream Innovations
+                </Link>
                 <button 
                     className="navbar-toggler" 
                     type="button" 
@@ -20,20 +24,34 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+                            <Link 
+                                className={`nav-link ${location.pathname === "/" ? "active" : ""}`} 
+                                to="/"
+                            >
+                                Home
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/about">About</Link>
+                            <Link 
+                                className={`nav-link ${location.pathname === "/about" ? "active" : ""}`} 
+                                to="/about"
+                            >
+                                About
+                            </Link>
                         </li>
-                        {/* <li className="nav-item">
-                            <Link className="nav-link" to="/projects">Projects</Link>
-                        </li> */}
+                        <li className="nav-item">
+                            <Link 
+                                className={`nav-link ${location.pathname === "/projects" ? "active" : ""}`} 
+                                to="/projects"
+                            >
+                                Projects
+                            </Link>
+                        </li>
                     </ul>
-                    
                 </div>
             </div>
         </nav>
-    )
+    );
 }
 
 export default Navbar;

@@ -1,0 +1,118 @@
+[
+    {
+        "src": "python_logo.png",
+        "title": "Python Projects",
+        "description": "Powerful Python solutions for automation, AI, and web scraping.",
+        "projects": [
+            {
+                "name": "ChatGPT API Integration",
+                "details": "Built a RESTful API to interact with ChatGPT, enabling chatbot development, AI-driven automation, and seamless integration with third-party applications."
+            },
+            {
+                "name": "AI-Powered Applications",
+                "details": "Integrated advanced AI models for text generation, image recognition, and natural language processing, including Text-to-SQL conversion for intelligent data handling."
+            },
+            {
+                "name": "OCR (Optical Character Recognition)",
+                "details": "Developed an advanced OCR system to extract text from scanned documents, images, and PDFs with high accuracy, supporting multiple languages and handwritten text."
+            },
+            {
+                "name": "CSS Inliner for Email Rendering",
+                "details": "Created a tool to convert embedded CSS into inline styles, ensuring consistent email rendering across different clients for improved email marketing performance."
+            },
+            {
+                "name": "HTML to Word Converter",
+                "details": "Developed a conversion tool that transforms HTML documents into Word format while preserving layouts, styles, and images, making document creation seamless."
+            },
+            {
+                "name": "Web Scraping & Data Extraction",
+                "details": "Built intelligent web scraping scripts to extract data from e-commerce sites, news portals, and social media, automating data collection for business insights."
+            },
+            {
+                "name": "Advanced Excel Automation",
+                "details": "Developed custom Python scripts to automate data analysis, formatting, and reporting in Excel, reducing manual work and improving productivity."
+            },
+            {
+                "name": "Google APIs Integration",
+                "details": "Implemented Google APIs for services like geolocation, image search, and data synchronization, enhancing app functionality with Google's powerful tools."
+            }
+        ]
+    },
+    {
+        "src": "odoo_logo.png",
+        "title": "Odoo Customization & ERP Solutions",
+        "description": "Tailored Odoo modules for business automation and ERP enhancements.",
+        "projects": [
+            {
+                "name": "Custom Sale Order Modules",
+                "details": "Enhanced Odoo’s Sale Order system with automated workflows, custom fields, and PDF report generation, streamlining sales management."
+            },
+            {
+                "name": "Inventory Management Automation",
+                "details": "Optimized stock control and warehouse management in Odoo with custom reports, automated actions, and third-party logistics integrations."
+            },
+            {
+                "name": "Automated Accounting & Payment Processing",
+                "details": "Developed accounting automation tools with journal entry generation, payment gateway integrations, and real-time bank transaction syncing."
+            },
+            {
+                "name": "E-Commerce & Website Enhancements",
+                "details": "Customized Odoo's website builder with advanced themes, product configurators, and marketing automation to boost user engagement."
+            },
+            {
+                "name": "Client Portal Optimization",
+                "details": "Implemented self-service portals for clients to track sales, invoices, orders, and projects, reducing internal workload and improving customer experience."
+            },
+            {
+                "name": "Point of Sale (POS) Customization",
+                "details": "Enhanced Odoo’s POS system with real-time inventory updates, external delivery platform integration, and advanced analytics for better decision-making."
+            },
+            {
+                "name": "AI-Powered ERP Features",
+                "details": "Integrated AI-driven automation into Odoo for intelligent data processing, predictive analytics, and workflow optimization."
+            },
+            {
+                "name": "Custom API Development for Odoo",
+                "details": "Designed RESTful APIs to integrate Odoo with external platforms, enabling seamless data exchange and business process automation."
+            }
+        ]
+    },
+    {
+        "src": "django_logo.png",
+        "title": "Django Web Applications & API Development",
+        "description": "Secure, scalable web applications built with Django & Django REST Framework.",
+        "projects": [
+            {
+                "name": "E-Commerce REST APIs",
+                "details": "Developed high-performance Django-based APIs for e-commerce platforms, handling product management, secure payments, and order processing."
+            },
+            {
+                "name": "Automated Document Generation Platform",
+                "details": "Built a system for property rental businesses that dynamically generates legal and financial documents based on user inputs."
+            },
+            {
+                "name": "AI-Powered FAQ Generator",
+                "details": "Developed a tool that analyzes business conversations and auto-generates FAQs using OpenAI’s ChatGPT API, improving customer support efficiency."
+            }
+        ]
+    },
+    {
+        "src": "react_logo.png",
+        "title": "React Frontend Development & UI Solutions",
+        "description": "Interactive and high-performance React applications with seamless UI/UX.",
+        "projects": [
+            {
+                "name": "Manifestation Services Website",
+                "details": "Designed and developed an elegant, client-centric website showcasing manifestation services, with an engaging carousel for lead generation."
+            },
+            {
+                "name": "Real-Time News Aggregator",
+                "details": "Built a React-powered news app that fetches and displays the latest headlines based on user-selected categories, leveraging external news APIs."
+            },
+            {
+                "name": "Portfolio Website & SEO Optimization",
+                "details": "Created a professional portfolio website with an optimized UI, responsive design, and enhanced SEO for increased online visibility."
+            }
+        ]
+    }
+]
