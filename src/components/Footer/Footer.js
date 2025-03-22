@@ -18,8 +18,10 @@ function Footer() {
                     </Link>
                 </p>
                 <div className="d-flex justify-content-center gap-3 mt-3">
-                    <Link to="#" className="text-light">Facebook</Link>
-                    <Link to="#" className="text-light">LinkedIn</Link>
+                    <Link to="https://www.facebook.com/profile.php?id=61574504521631" className="text-light">Facebook</Link>
+                    <Link to="www.linkedin.com/in/adream-innovations-11956a353" className="text-light">LinkedIn</Link>
+                    <Link to="https://www.instagram.com/adreaminnovations/" className="text-light">Instagram</Link>
+                    <Link to="https://medium.com/@adreaminnovations" className="text-light">Medium</Link>
                 </div>
             </div>
         </footer>
