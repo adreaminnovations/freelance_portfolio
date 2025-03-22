@@ -28,14 +28,14 @@ function Projects() {
     }, []);
 
     return (
-        <div className="position-relative" style={{ minHeight: "74vh" }}>
+        <div className="position-relative" style={{ minHeight: "64vh" }}>
 
-            <div className="container text-start px-4 px-md-5 bg-dark" data-bs-theme="dark">
+            <div className="container text-start px-4 px-md-5 bg-dark mt-5 p-5 mb-5" data-bs-theme="dark">
                 <h1 className="text-light">Projects</h1>
 
                 {error && <p className="text-danger">{error}</p>}
 
-                <div className="d-flex flex-wrap gap-2 ">
+                <div className="d-flex flex-wrap gap-2">
                     {projects.map((project, index) => (
                         <div key={index}
                             className="card shadow-none flex-grow-1 project-card"
