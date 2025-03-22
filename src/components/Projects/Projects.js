@@ -28,20 +28,14 @@ function Projects() {
     }, []);
 
     return (
-        <div className="position-relative">
-            {/* Banner Image */}
-            <img
-                src={`${process.env.PUBLIC_URL}/projects_banner.png`}
-                alt="Projects Banner - Portfolio"
-                className="img-fluid rounded w-100"
-                loading="lazy"
-            />
+        <div className="position-relative my-5">
 
             <div className="container my-5 text-start px-4 px-md-5 bg-dark" data-bs-theme="dark">
+                <h1 className="text-light mb-5">Projects</h1>
 
                 {error && <p className="text-danger">{error}</p>}
 
-                <div className="d-flex flex-wrap justify-content-center gap-3">
+                <div className="d-flex flex-wrap gap-2 my-5 py-4">
                     {projects.map((project, index) => (
                         <div key={index}
                             className="card shadow-none flex-grow-1 project-card"
