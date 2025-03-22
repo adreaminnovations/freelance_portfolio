@@ -28,7 +28,7 @@ function Projects() {
     }, []);
 
     return (
-        <div className="position-relative" style={{ minHeight: "64vh" }}>
+        <div className="position-relative" style={{ minHeight: "68vh" }}>
 
             <div className="container text-start px-4 px-md-5 bg-dark mt-5 p-5 mb-5" data-bs-theme="dark">
                 <h1 className="text-light">Projects</h1>
