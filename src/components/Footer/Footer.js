@@ -24,7 +24,7 @@ function Footer() {
                     <Link to="/about" className="text-light fw-bold">About</Link>
                     <Link to="/projects" className="text-light fw-bold">Projects</Link>
                     <Link to="https://www.facebook.com/profile.php?id=61574854727312" target="_blank" className="text-light">Facebook</Link>
-                    <Link to="www.linkedin.com/in/adream-innovations-7a4b1535b" target="_blank" className="text-light">LinkedIn</Link>
+                    <Link to="https://www.linkedin.com/in/adream-innovations-7a4b1535b/" target="_blank" className="text-light">LinkedIn</Link>
                     <Link to="https://www.instagram.com/adreaminnovations/" target="_blank" className="text-light">Instagram</Link>
                     <Link to="https://medium.com/@adreaminnovations" target="_blank" className="text-light">Medium</Link>
                 </div>
